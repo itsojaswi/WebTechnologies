@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+</head>
+<body>
+    <script>
+        let a = 10;
+    {
+        let a = 12;
+        console.log(a);  
+    } 
+    console.log(a);
+
+    const items= {
+        name : "ojaswi",
+        age : 19,
+        address : "mulpani"
+    }
+    console.log(items.name);
+
+    const dictonary = {
+        happy : "feeling_or_showing_pleasure_or_contentment",
+        sad : "feeling or showing sorrow unhappy",
+        nice : "giving pleasure or satisfaction; pleasant or attractive." 
+    }
+    console.log(dictonary)
+
+    const name = prompt("whats your name? ")
+    console.log(name);
+
+    age  = prompt("Enter your age: ");
+    if (age>0){
+        alert("valid age");
+    }else{
+        alert("invalid age");
+    }
+    console.log(age)
+    
+    age1 = prompt("WHAT IS YOUR AGE? ")
+    if (age1<1 && age1>12){
+        alert("infant");
+    }else if (age1<13 && age1>19){
+        alert("Teenager");
+    }else if (age1<20 && age1>50){
+        alert("Adult");
+    }else if (age1>51){
+        alert ("old");
+    }else{
+        ("Invalid")
+    }
+    console.log(Age1)
+
+    for (i = 0; i<=100; i++){
+        console.log(i);
+    }
+      
+    let total = 0;
+    function sum(a, b){
+        total = a+b;
+        return total;
+    }
+    console.log(sum(2,3));
+
+    function area_of_circle (radius){
+        area = 2 * Math.PI * radius;
+        return area; 
+    }
+    console.log(area_of_circle(2))
+
+     
+    </script>
+</body>
+</html>

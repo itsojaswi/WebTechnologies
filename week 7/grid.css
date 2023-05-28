@@ -1,0 +1,30 @@
+.grid{
+    width: 100%;
+    border: 3px solid rgb(39, 34, 34);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 250px 250px ;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+.box1{
+   background-color: aqua;
+}
+.box2{
+   background-color: rgb(65, 225, 209);
+}
+.box3{
+   background-color: blue;
+}
+.box4{
+   background-color: blueviolet;
+}
+.box4{
+    background-color: greenyellow;
+}
+.box5{
+   background-color: brown;
+}
+.box6{
+   background-color: beige;
+}

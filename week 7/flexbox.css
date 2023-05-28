@@ -1,0 +1,36 @@
+.flex{
+     width: 100%;
+     background-color: black;
+     border: 2px solid goldenrod;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     gap: 20px;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    border: 2px solid blueviolet;
+}
+.box1{
+    background-color: aqua;
+}
+.box2{
+    background-color: rgb(65, 225, 209);
+}
+.box3{
+    background-color: blue;
+}
+.box4{
+    background-color: blueviolet;
+}
+.box4{
+     background-color: greenyellow;
+}
+.box5{
+    background-color: brown;
+}
+.box6{
+    background-color: beige;
+}

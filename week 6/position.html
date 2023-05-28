@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+</head>
+<style>
+    .parent{
+        width: 100%;
+        height:1000vh;
+        background-color:rgb(82, 45, 82);
+        border: 2px dotted red;
+    }
+    .box{
+        width: 300px;
+        height: 250px;
+        border: 1px solid yellowgreen;
+        position: static;
+    }
+    .box1{
+         background-color: rgb(85, 85, 50);
+    }
+    .box2{
+         background-color: rgb(94, 49, 137);
+    }
+    .box3{
+         background-color: darkolivegreen;
+         position: absolute;
+         left: 10px;
+    }
+    .box4{
+         background-color: lightpink;
+    }
+    .box5{
+         background-color: navy;
+    }
+</style>
+<body>
+    <div class="parent">
+        <div class="box box1">I am static</div>
+        <div class="box box2">I am relative</div>
+        <div class="box box3">I am absolute</div>
+        <div class="box box4">I am fixed</div>
+        <div class="box box5">I am sticky</div>
+    </div>
+</body>
+</html>
